@@ -1,0 +1,7 @@
+framework:
+    serializer:
+        enabled: true
+        name_converter: null
+        circular_reference_handler: null
+        mapping:
+            paths: ['%kernel.project_dir%/src/Entity', '%kernel.project_dir%/src/DTO'] 
